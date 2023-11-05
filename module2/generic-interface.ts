@@ -12,8 +12,8 @@
     }
     
     type Mobile = {
-        name: "realme",
-        model: 2022,
+        name: string,
+        model: number,
     }
     const user1: GenericInterface<Mobile> = {
         name: 'Mostakim',
